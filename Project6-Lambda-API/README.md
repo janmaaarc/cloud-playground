@@ -5,7 +5,7 @@
 - Trigger Lambda using AWS API Gateway
 - Test API endpoints
 - Document setup, commands, and lessons learned
-- Include screenshots
+- Include screenshots and notes
 
 ---
 
