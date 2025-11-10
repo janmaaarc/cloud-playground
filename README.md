@@ -95,14 +95,15 @@ cloud-playground/
 ---
 
 ### **Project 5 – VPC & Networking**
-**Objectives:**  
-- Create custom VPC with public/private subnets  
-- Launch EC2 in private subnet via bastion host  
-- Configure security groups and NACLs  
+**Objectives:**
+- Create Virtual Private Cloud (VPC) with public and private subnets
+- Configure security groups and Network ACLs (NACLs)
+- Launch EC2 instances in different subnets
 
-**Screenshots:**  
-- VPC diagram  
-- EC2 in private subnet  
+**Screenshots:**
+- VPC Dashboard
+- Public Subnet
+- Private Subnet
 
 ---
 
