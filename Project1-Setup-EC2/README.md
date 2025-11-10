@@ -2,7 +2,7 @@
 
 ## Objectives
 - Create AWS Free Tier account and enable MFA
-- Launch an EC2 t2.micro instance
+- Launch an EC2 t3.micro instance
 - Connect via SSH from MacBook terminal
 - Verify the instance and run basic Linux commands
 - Document setup steps, commands, and lessons learned
