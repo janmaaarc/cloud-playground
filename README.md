@@ -56,7 +56,7 @@ cloud-playground/
 ### **Project 1 – AWS Setup & EC2 Launch**
 **Objectives:**  
 - Create AWS Free Tier account and enable MFA  
-- Launch EC2 t2.micro instance  
+- Launch EC2 t3.micro instance  
 - Connect via SSH and document setup  
 
 **Screenshots / Notes:**  
