@@ -97,8 +97,9 @@ cloud-playground/
 - Setup SNS notifications for alerts  
 
 **Screenshots:**  
-- CloudWatch dashboard  
-- Email notification  
+- CloudWatch dashboard
+- Create Alarm
+- SNS notification  
 
 ---
 
