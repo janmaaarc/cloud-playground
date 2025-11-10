@@ -28,22 +28,13 @@ Specific goals:
 cloud-playground/
 │
 ├── Project1-Setup-EC2/
-│   └── README.md
 ├── Project2-S3-Website/
-│   └── README.md
 ├── Project3-IAM-Security/
-│   └── README.md
 ├── Project4-CloudWatch-SNS/
-│   └── README.md
 ├── Project5-VPC-Networking/
-│   └── README.md
 ├── Project6-Lambda-API/
-│   └── README.md
 ├── Project7-IaC/
-│   └── README.md
 ├── Project8-Capstone/
-│   └── README.md
-├── screenshots/
 └── README.md
 ```
 
