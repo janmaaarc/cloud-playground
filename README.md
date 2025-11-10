@@ -86,7 +86,8 @@ cloud-playground/
 
 **Screenshots:**  
 - IAM dashboard  
-- CloudTrail logs  
+- Create IAM User
+- Permission Policy 
 
 ---
 
