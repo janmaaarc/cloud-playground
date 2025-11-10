@@ -46,7 +46,7 @@ curl https://your-api-endpoint.amazonaws.com/dev
 
 ---
 
-# Commands / AWS CLI (Optional)
+## Commands / AWS CLI (Optional)
 ```bash
 # List Lambda functions
 aws lambda list-functions
