@@ -61,7 +61,8 @@ cloud-playground/
 
 **Screenshots / Notes:**  
 - EC2 dashboard  
-- SSH terminal  
+- SSH terminal
+- Linux Commands
 
 ---
 
