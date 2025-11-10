@@ -46,6 +46,20 @@ curl https://your-api-endpoint.amazonaws.com/dev
 
 ---
 
+# Commands / AWS CLI (Optional)
+```bash
+# List Lambda functions
+aws lambda list-functions
+
+# Invoke Lambda function
+aws lambda invoke --function-name Project6-HelloWorld response.json
+
+# Deploy API using CLI (example)
+aws apigateway create-deployment --rest-api-id xxxxx --stage-name dev
+```
+
+---
+
 ## Notes / Lessons Learned
 
 - Lambda enables serverless execution without managing servers.
