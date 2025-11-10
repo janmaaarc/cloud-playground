@@ -53,6 +53,7 @@ sudo yum update -y
 # Install Git
 sudo yum install git -y
 ```
+
 ---
 
 ## Commands Used
@@ -66,7 +67,9 @@ uptime
 sudo yum update -y
 sudo yum install git -y
 ```
+
 ---
+
 ## Notes / Lessons Learned
 - Launching an EC2 instance on AWS Free Tier is straightforward and beginner-friendly.
 - SSH connection requires the `.pem` key to have proper permissions (`chmod 400`).
