@@ -59,7 +59,7 @@ cloud-playground/
 - Launch EC2 t3.micro instance  
 - Connect via SSH and document setup  
 
-**Screenshots / Notes:**  
+**Screenshots:**  
 - EC2 dashboard  
 - SSH terminal
 - Linux Commands
@@ -72,9 +72,9 @@ cloud-playground/
 - Upload HTML/CSS files  
 - Configure public access and CloudFront distribution  
 
-**Screenshots / Notes:**  
+**Screenshots:**  
 - S3 bucket  
-- CloudFront URL  
+- Live Website
 
 ---
 
@@ -84,7 +84,7 @@ cloud-playground/
 - Apply least-privilege policies  
 - Enable CloudTrail logging  
 
-**Screenshots / Notes:**  
+**Screenshots:**  
 - IAM dashboard  
 - CloudTrail logs  
 
@@ -95,7 +95,7 @@ cloud-playground/
 - Create CloudWatch alarms  
 - Setup SNS notifications for alerts  
 
-**Screenshots / Notes:**  
+**Screenshots:**  
 - CloudWatch dashboard  
 - Email notification  
 
@@ -107,7 +107,7 @@ cloud-playground/
 - Launch EC2 in private subnet via bastion host  
 - Configure security groups and NACLs  
 
-**Screenshots / Notes:**  
+**Screenshots:**  
 - VPC diagram  
 - EC2 in private subnet  
 
@@ -119,7 +119,7 @@ cloud-playground/
 - Expose Lambda via API Gateway  
 - Enable CloudWatch logging  
 
-**Screenshots / Notes:**  
+**Screenshots:**  
 - Lambda dashboard  
 - API Gateway test  
 
@@ -130,7 +130,7 @@ cloud-playground/
 - Deploy EC2 or S3 using Terraform or CloudFormation  
 - Version control IaC scripts in GitHub  
 
-**Screenshots / Notes:**  
+**Screenshots:**  
 - Terraform/CloudFormation plan  
 - Resources created in AWS  
 
@@ -141,7 +141,7 @@ cloud-playground/
 - Combine EC2, S3, Lambda, API Gateway, VPC, IAM, CloudWatch, and IaC into a single project  
 - Document architecture, setup, and results  
 
-**Screenshots / Notes:**  
+**Screenshots:**  
 - Architecture diagram  
 - Project demo screenshots  
 
