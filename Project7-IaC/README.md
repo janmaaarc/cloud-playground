@@ -82,8 +82,8 @@ aws cloudformation deploy \
 
 ### 4. Verify Resources
 - Check AWS Console for:
- - S3 bucket creation
- - EC2 instance deployment
+  - S3 bucket creation
+  - EC2 instance deployment
 - Ensure all resources match your IaC configuration.
 
 ---
