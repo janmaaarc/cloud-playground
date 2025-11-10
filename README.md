@@ -114,8 +114,9 @@ cloud-playground/
 - Enable CloudWatch logging  
 
 **Screenshots:**  
-- Lambda dashboard  
-- API Gateway test  
+- Lambda Dashboard  
+- Create Lambda Function
+- API Gateway Test
 
 ---
 
