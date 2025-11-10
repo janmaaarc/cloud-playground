@@ -1,11 +1,11 @@
 # Project 7 – Infrastructure as Code (IaC)
 
 ## Objectives
-- Automate cloud resource deployment using Infrastructure as Code (IaC)
-- Use AWS CloudFormation or Terraform for provisioning
-- Manage and version infrastructure consistently
-- Document setup, commands, and lessons learned
-- Include screenshots and notes
+-	Automate cloud resource deployment using Infrastructure as Code (IaC)
+-	Use Terraform (or AWS CloudFormation) for provisioning
+-	Manage and version infrastructure consistently
+-	Deploy and verify resources such as EC2 instances and S3 buckets
+-	Document setup, commands, lessons learned, and include screenshots
 
 ---
 
@@ -15,13 +15,18 @@
 
 ### 1. Choose IaC Tool
 - Decide between **Terraform** or **CloudFormation**.
+- Terraform was used for this project.
 - Install necessary CLI:
   - Terraform: `brew install terraform`
-  - CloudFormation: AWS CLI (already installed)
+  - CloudFormation: `brew install awscli`
+ 
+### 2. Configure AWS Credentials
+```bash
+aws configure
+```
+Input your Access Key ID, Secret Access Key, Region (ap-southeast-2), and output format (json).
 
----
-
-### 2. Write IaC Template / Configuration
+### 3. Write IaC Configuration
 
 #### **Example: Terraform (main.tf)**
 ```hcl
@@ -31,17 +36,21 @@ provider "aws" {
 
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "project7-iac-bucket"
-  acl    = "private"
 }
 
 resource "aws_instance" "my_ec2" {
-  ami           = "ami-0abcdef1234567890"
+  ami           = "ami-0b0dcb5067f052a63" # replace with valid AMI in your region
   instance_type = "t3.micro"
   tags = {
     Name = "Project7-IaC-EC2"
   }
 }
 ```
+> Make sure to use an available AMI in your AWS region. You can find it via the console or AWS CLI:
+```bash
+Make sure to use an available AMI in your AWS region. You can find it via the console or AWS CLI:
+```
+
 #### **Example: CloudFormation (template.yaml)**
 ```yaml
 Resources:
@@ -60,7 +69,7 @@ Resources:
           Value: Project7-IaC-EC2
 ```
 
-### 3. Deploy Infrastructure
+### 4. Deploy Infrastructure
 Terraform
 ```bash
 # Initialize working directory
@@ -72,6 +81,9 @@ terraform plan
 # Deploy resources
 terraform apply
 ```
+- Type yes to confirm.
+
+
 Cloudformation
 ```bash
 aws cloudformation deploy \
@@ -80,24 +92,28 @@ aws cloudformation deploy \
   --capabilities CAPABILITY_NAMED_IAM
 ```
 
-### 4. Verify Resources
+### 5. Verify Resources
 - Check AWS Console for:
-  - S3 bucket creation
-  - EC2 instance deployment
-- Ensure all resources match your IaC configuration.
+  - S3 Bucket: project7-iac-bucket
+  - EC2 Instance: Project7-IaC-EC2, check instance ID and public IP.
+- Test connectivity to EC2 if SSH key configured.
 
 ---
 
 ## Commands / AWS CLI (Optional)
 ```bash
+# List S3 buckets
+aws s3 ls
+
+# Describe EC2 instance
+aws ec2 describe-instances --instance-ids <instance-id> --region ap-southeast-2
+
 # Terraform
-terraform init
-terraform plan
-terraform apply
+terraform show
 terraform destroy
 
 # CloudFormation
-aws cloudformation deploy --template-file template.yaml --stack-name Project7-IaC --capabilities CAPABILITY_NAMED_IAM
+aws cloudformation describe-stacks --stack-name Project7-IaC
 aws cloudformation delete-stack --stack-name Project7-IaC
 ```
 
@@ -105,18 +121,21 @@ aws cloudformation delete-stack --stack-name Project7-IaC
 
 ## Notes / Lessons Learned
 
-- IaC allows repeatable and version-controlled deployments.
-- Terraform works across multiple cloud providers; CloudFormation is AWS-native.
-- Always review the plan before applying changes to avoid unintended resource creation.
-- Proper tagging and naming conventions make managing infrastructure easier.
-- Using IaC reduces manual mistakes and accelerates project setup.
+- IaC ensures repeatable, automated deployments and reduces manual errors.
+- Terraform supports multiple cloud providers; CloudFormation is AWS-specific.
+- Always check AMI availability in your chosen region to avoid deployment errors.
+- Tagging and naming resources properly makes infrastructure easier to manage.
+- Verifying resources after deployment confirms the correctness of your IaC configuration.
 
 ---
 
 ## Screenshots
 
-### IaC Deployment Overview
-![IaC Deployment Overview](screenshots/iac-deployment-overview.png)
+### Terraform Deployment Overview
+![Terraform Deployment Overview](screenshots/deployment-overview.png)
 
-### Terraform / CloudFormation Output
-![Terraform / CloudFormation Output](screenshots/output.png)
+### EC2 Instance Created
+![EC2 Instance Created](screenshots/ec2.png)
+
+### S3 Bucket Created
+![S3 Bucket Created](screenshots/s3.png)
