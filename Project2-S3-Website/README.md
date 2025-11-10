@@ -28,7 +28,9 @@
 - Copy the **S3 website endpoint URL**.
 - Open in browser to verify the site is live.
 
-### 4. Commands / AWS CLI (Optional)
+---
+
+## Commands / AWS CLI (Optional)
 ```bash
 # Example: Create bucket via AWS CLI
 aws s3 mb s3://project2-static-site
@@ -50,7 +52,7 @@ aws s3 sync ./local-website-folder s3://project2-static-site --acl public-read
 ## Screenshots
 
 ### S3 Bucket Dashboard
-![EC2 Dashboard](screenshots/s3-bucket-dashboard.png)
+![S3 Bucket Dashboard](screenshots/s3-bucket-dashboard.png)
 
 ### Live Website
-![SSH Terminal](screenshots/live-website.png)
+![Live Website](screenshots/live-website.png)
