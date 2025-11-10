@@ -28,7 +28,7 @@
 - Copy the **S3 website endpoint URL**.
 - Open in browser to verify the site is live.
 
-### 4. Commands / AWS CLI
+### 4. Commands / AWS CLI (Optional)
 ```bash
 # Example: Create bucket via AWS CLI
 aws s3 mb s3://project2-static-site
