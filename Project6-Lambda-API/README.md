@@ -19,7 +19,7 @@
 - Create or assign an execution role with required permissions.
 
 ### 2. Add Function Code
-- Write basic code to handle requests:
+Write basic code to handle requests:
 ```python
 def lambda_handler(event, context):
     return {
@@ -27,15 +27,15 @@ def lambda_handler(event, context):
         'body': 'Hello from Lambda!'
     }
 ```
-- Save and test function using the Lambda console.
+Save and test function using the Lambda console.
 
 ### 3. Test Lambda Using AWS CLI (Recommended)
-- Invoke Lambda directly from terminal:
+Invoke Lambda directly from terminal:
 ```bash
 aws lambda invoke --function-name Project6-HelloWorld response.json
 cat response.json
 ```
-- Expected output:
+Expected output:
  ```json
 "Hello from Lambda!"
 ```
