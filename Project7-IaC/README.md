@@ -45,10 +45,11 @@ resource "aws_instance" "my_ec2" {
   }
 }
 ```
-> Make sure to use an available AMI in your AWS region. You can find it via the console or AWS CLI:
+> Note: Make sure to use an available AMI in your AWS region. You can find it via the console or AWS CLI:
 ```bash
-Make sure to use an available AMI in your AWS region. You can find it via the console or AWS CLI:
+aws ec2 describe-images --owners amazon --filters "Name=name,Values=amzn2-ami-hvm-2.0.*-x86_64-gp2" --region ap-southeast-2
 ```
+
 
 #### **Example: CloudFormation (template.yaml)**
 ```yaml
