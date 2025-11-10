@@ -29,20 +29,30 @@ def lambda_handler(event, context):
 ```
 - Save and test function using the Lambda console.
 
-### 3. Create API Gateway
+### 3. Test Lambda Using AWS CLI (Recommended)
+- Invoke Lambda directly from terminal:
+```bash
+aws lambda invoke --function-name Project6-HelloWorld response.json
+cat response.json
+```
+- Expected output:
+ ```json
+"Hello from Lambda!"
+```
+> Note: This method avoids DNS or network issues that may prevent curl from reaching the API Gateway endpoint.
 
+### 4. Create API Gateway (Optional)
 - Navigate to API Gateway → Create API → HTTP API.
-- Add integration → select Lambda function created.
+- Add integration → select the Lambda function created.
 - Deploy API to a stage (e.g., dev).
 
-### 4. Test API
-
-- Copy API endpoint URL.
-- Send GET request using browser or curl:
+### 5. Test API Gateway Endpoint (Optional)
+- Copy the API endpoint URL.
+- Example GET request:
 ```bash
-curl https://your-api-endpoint.amazonaws.com/dev
+curl "https://1eh7xgu2b5.execute-api.ap-southeast-2.amazonaws.com/dev/hello"
 ```
-- Verify Lambda function executes and returns response. 
+>Caution: On some networks or DNS configurations, curl may fail to resolve the API Gateway domain. If this occurs, use the AWS CLI direct invocation method above.
 
 ---
 
@@ -63,10 +73,10 @@ aws apigateway create-deployment --rest-api-id xxxxx --stage-name dev
 ## Notes / Lessons Learned
 
 - Lambda enables serverless execution without managing servers.
-- API Gateway allows external clients to call Lambda functions.
+- AWS CLI invocation is reliable for testing Lambda, especially when DNS issues occur.
+- API Gateway allows external clients to call Lambda functions over HTTP.
 - Proper IAM role assignment is crucial for Lambda execution.
-- Testing endpoints ensures integration between Lambda and API Gateway.
-- Documenting code and API steps helps with future serverless projects.
+- Documenting each step ensures reproducibility for future serverless projects.
 
 ---
 
