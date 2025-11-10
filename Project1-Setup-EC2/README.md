@@ -18,7 +18,7 @@
 
 ### 2. Launch EC2 Instance
 - Selected **Amazon Linux 2 AMI**.
-- Chose **t2.micro** (Free Tier eligible).
+- Chose **t3.micro** (Free Tier eligible).
 - Configured default VPC and subnet.
 - Added tag: `Name: Project1-EC2`.
 - Created security group to allow SSH (port 22) from my IP.
