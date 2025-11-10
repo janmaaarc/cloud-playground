@@ -91,5 +91,5 @@ aws apigateway create-deployment --rest-api-id xxxxx --stage-name dev
 ### Create Lambda Function
 ![Create Lambda Function](screenshots/create-lambda-function.png)
 
-### API Gateway Test
-![API Gateway Test](screenshots/api-gateway-test.png)
+### AWS CLI Invocation
+![AWS CLI Invocation](screenshots/aws-cli-invocation.png)
