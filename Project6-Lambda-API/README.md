@@ -32,7 +32,10 @@ Save and test function using the Lambda console.
 ### 3. Test Lambda Using AWS CLI (Recommended)
 Invoke Lambda directly from terminal:
 ```bash
+# Invoke Lambda
 aws lambda invoke --function-name Project6-HelloWorld response.json
+
+# View output
 cat response.json
 ```
 Expected output:
