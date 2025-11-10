@@ -122,7 +122,7 @@ cloud-playground/
 
 ### **Project 7 – Infrastructure as Code (IaC)**
 **Objectives:**  
-- Deploy EC2 or S3 using Terraform or CloudFormation  
+- Deploy EC2 and S3 using Terraform or CloudFormation  
 - Version control IaC scripts in GitHub  
 
 **Screenshots:**  
