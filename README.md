@@ -64,7 +64,7 @@ cloud-playground/
 - Configure public access and CloudFront distribution  
 
 **Screenshots:**  
-- S3 bucket  
+- S3 Bucket Dashboard  
 - Live Website
 
 ---
