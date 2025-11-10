@@ -58,7 +58,7 @@ aws sns subscribe --topic-arn arn:aws:sns:us-east-1:123456789012:Project4-Alerts
 ## Screenshots
 
 ### CloudWatch Dashboard
-![CloudWatch Dashboard](screenshots/cloudWatch-dashboard.png)
+![CloudWatch Dashboard](screenshots/cloudwatch-dashboard.png)
 
 ### Create Alarm
 ![Create Alarm](screenshots/create-alarm.png)
