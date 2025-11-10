@@ -23,7 +23,7 @@
 ```bash
 aws configure
 ```
-- Input your Access Key ID, Secret Access Key, Region (ap-southeast-2), and output format (json).
+#### Input your Access Key ID, Secret Access Key, Region (ap-southeast-2), and output format (json).
 
 ### 3. Write IaC Configuration
 
@@ -81,7 +81,7 @@ terraform plan
 # Deploy resources
 terraform apply
 ```
-- Type yes to confirm.
+#### Type yes to confirm.
 
 
 Cloudformation
