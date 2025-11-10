@@ -60,7 +60,7 @@ aws sns subscribe --topic-arn arn:aws:sns:us-east-1:123456789012:Project4-Alerts
 ### CloudWatch Dashboard
 ![CloudWatch Dashboard](screenshots/cloudWatch-dashboard.png)
 
-### Create IAM User
+### Create Alarm
 ![Create Alarm](screenshots/create-alarm.png)
 
 ### SNS Notification
