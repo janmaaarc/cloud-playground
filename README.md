@@ -24,6 +24,7 @@ Specific goals:
 
 ## Repo Structure
 
+```
 cloud-playground/
 │
 ├── Project1-Setup-EC2/
@@ -44,6 +45,7 @@ cloud-playground/
 │   └── README.md
 ├── screenshots/
 └── README.md
+```
 
 > Each project folder contains a README with **objectives, commands, screenshots, and notes**. You can complete projects in **any order** over **1–6 days or less than a week**.
 
@@ -162,7 +164,7 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 
 ## Author
 
-**Your Name** – Computer Engineering Graduate | Cloud & Security Enthusiast
+**Jan Marc** – Computer Engineering Graduate | Cloud & Security Enthusiast
 
-- GitHub: [https://github.com/<your-username>](https://github.com/<your-username>)  
-- LinkedIn: [https://www.linkedin.com/in/<your-profile>](https://www.linkedin.com/in/<your-profile>)  
+- GitHub: [https://github.com/janmaaarc](https://github.com/janmaaarc)  
+- LinkedIn: [https://www.linkedin.com/in/jan-marc-coloma/](https://www.linkedin.com/in/jan-marc-coloma/>)  
