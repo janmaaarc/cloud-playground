@@ -47,7 +47,7 @@ cloud-playground/
 └── README.md
 ```
 
-> Each project folder contains a README with **objectives, commands, screenshots, and notes**. You can complete projects in **any order** over **1–6 days or less than a week**.
+> Each project folder contains a README with **objectives, commands, notes, and screenshots**. You can complete projects in **any order** over **1–6 days or less than a week**.
 
 ---
 
