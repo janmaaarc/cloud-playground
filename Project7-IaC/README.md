@@ -42,7 +42,7 @@ resource "aws_instance" "my_ec2" {
   }
 }
 ```
-Example: CloudFormation (template.yaml)
+#### **Example: CloudFormation (template.yaml)**
 ```yaml
 Resources:
   MyS3Bucket:
