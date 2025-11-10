@@ -34,3 +34,37 @@ chmod 400 project1-key.pem
 
 # Connect to EC2 instance
 ssh -i project1-key.pem ec2-user@3.27.13.213
+```
+
+### Verify Instance
+```bash
+# Check OS info
+uname -a
+
+# Check disk usage
+df -h
+
+# Check uptime
+uptime
+
+# Update packages
+sudo yum update -y
+
+# Install Git
+sudo yum install git -y
+```
+---
+
+## Commands Used
+```
+cd ~/Documents/documents/aws-keys
+chmod 400 project1-key.pem
+ssh -i project1-key.pem ec2-user@3.27.13.213
+uname -a
+df -h
+uptime
+sudo yum update -y
+sudo yum install git -y
+```
+
+
