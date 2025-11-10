@@ -126,8 +126,9 @@ cloud-playground/
 - Version control IaC scripts in GitHub  
 
 **Screenshots:**  
-- Terraform/CloudFormation plan  
-- Resources created in AWS  
+- Terraform Deployment Overview
+- EC2 Instance Created
+- S3 Bucket Created
 
 ---
 
