@@ -51,8 +51,8 @@ cloud-playground/
 - Connect via SSH and document setup  
 
 **Screenshots:**  
-- EC2 dashboard  
-- SSH terminal
+- EC2 Dashboard  
+- SSH Terminal
 - Linux Commands
 
 ---
@@ -76,21 +76,21 @@ cloud-playground/
 - Enable CloudTrail logging  
 
 **Screenshots:**  
-- IAM dashboard  
+- IAM Dashboard  
 - Create IAM User
 - Permission Policy 
 
 ---
 
-### **Project 4 – CloudWatch & SNS Alerts**
+### **Project 4 – CloudWatch & SNS Notification**
 **Objectives:**  
 - Create CloudWatch alarms  
 - Setup SNS notifications for alerts  
 
 **Screenshots:**  
-- CloudWatch dashboard
+- CloudWatch Dashboard
 - Create Alarm
-- SNS notification  
+- SNS Notification  
 
 ---
 
