@@ -33,7 +33,7 @@ cd ~/Documents/documents/aws-keys
 chmod 400 project1-key.pem
 
 # Connect to EC2 instance
-ssh -i project1-key.pem ec2-user@3.27.13.213
+ssh -i project1-key.pem ec2-user@<EC2-PUBLIC-IP>
 ```
 
 ### 4. Verify Instance
