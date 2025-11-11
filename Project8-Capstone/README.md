@@ -73,7 +73,7 @@ Project8-Capstone/
 
 ---
 
-## 🪄 Terraform Configuration Files  
+## Terraform Configuration Files  
 
 ### provider.tf
 ```hcl
@@ -304,6 +304,17 @@ terraform destroy
 
 ## Screenshots
 
-	•	Terraform plan and apply output
-	•	AWS Console resources: EC2, S3, Lambda, API Gateway
-	•	CloudWatch logs and metrics
+### Terraform plan and apply output
+![Terraform plan and apply output](screenshots/plan.png)
+![Terraform plan and apply output](screenshots/output.png)
+
+
+### AWS Console resources: EC2, S3, Lambda, API Gateway
+![AWS Console resources](screenshots/ec2.png)
+![AWS Console resources](screenshots/s3.png)
+![AWS Console resources](screenshots/lambda.png)
+![AWS Console resources](screenshots/api.png)
+
+### CloudWatch logs and metrics
+![CloudWatch logs and metrics](screenshots/logs.png)
+![CloudWatch logs and metrics](screenshots/metrics.png)
