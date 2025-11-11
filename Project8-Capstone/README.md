@@ -30,7 +30,7 @@ The architecture integrates multiple AWS services working together:
 
 ##  Architecture Diagram  
 
-![AWS Architecture](architecture_diagram_illustra.png)
+![AWS Architecture](architecture_diagram_illustra.PNG)
 
 > This diagram illustrates the relationship between EC2, S3, Lambda, API Gateway, IAM, VPC, and CloudWatch — all provisioned via Terraform.
 
