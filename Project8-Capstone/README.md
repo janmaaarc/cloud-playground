@@ -51,28 +51,6 @@ The architecture integrates multiple AWS services working together:
 
 ---
 
-## Folder Structure
-```
-Project8-Capstone/
-│
-├── main.tf
-├── provider.tf
-├── variables.tf
-├── outputs.tf
-│
-├── vpc.tf
-├── ec2.tf
-├── s3.tf
-├── iam.tf
-├── lambda.tf
-├── apigateway.tf
-├── cloudwatch.tf
-│
-└── lambda_function.py
-```
-
----
-
 ## Terraform Configuration Files  
 
 ### provider.tf
