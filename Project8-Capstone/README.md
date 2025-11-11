@@ -1,9 +1,9 @@
-# 🧩 Project 8 – Capstone Project  
+# Project 8 – Capstone Project  
 **Title:** AWS Cloud Infrastructure using Terraform  
 
 ---
 
-## 🎯 Objectives  
+## Objectives  
 - Combine multiple AWS services into a single integrated cloud environment.  
 - Deploy and manage infrastructure using **Terraform (IaC)**.  
 - Implement and connect **EC2, S3, Lambda, API Gateway, VPC, IAM**, and **CloudWatch**.  
@@ -12,7 +12,7 @@
 
 ---
 
-## 🏗️ Architecture Overview  
+## Architecture Overview  
 
 The architecture integrates multiple AWS services working together:
 
@@ -36,7 +36,7 @@ The architecture integrates multiple AWS services working together:
 
 ---
 
-## ⚙️ Tools and Technologies  
+## Tools and Technologies  
 | Category | Tools/Services Used |
 |-----------|---------------------|
 | Cloud Platform | AWS |
@@ -280,8 +280,26 @@ output "api_gateway_id" {
 }
 ```
 
+---
 
+## Commands used
+```bash
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+```
 
+---
 
+## Screenshots
 
+---
 
+## Notes/Lessons Learned
+
+- Terraform automates provisioning, reducing manual setup and errors.
+- AWS IAM ensures secure and controlled access between services.
+- Using CloudWatch improves visibility and debugging of serverless apps.
+- IaC enables version-controlled, repeatable deployments for cloud systems.
+- Integrating EC2, Lambda, and API Gateway builds a complete cloud workflow.
