@@ -303,3 +303,7 @@ terraform destroy
 ---
 
 ## Screenshots
+
+	•	Terraform plan and apply output
+	•	AWS Console resources: EC2, S3, Lambda, API Gateway
+	•	CloudWatch logs and metrics
