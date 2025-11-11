@@ -51,7 +51,7 @@ The architecture integrates multiple AWS services working together:
 
 ---
 
-## 🧾 Folder Structure
+## Folder Structure
 ```
 Project8-Capstone/
 │
