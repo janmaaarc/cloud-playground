@@ -292,10 +292,6 @@ terraform destroy
 
 ---
 
-## Screenshots
-
----
-
 ## Notes/Lessons Learned
 
 - Terraform automates provisioning, reducing manual setup and errors.
@@ -303,3 +299,7 @@ terraform destroy
 - Using CloudWatch improves visibility and debugging of serverless apps.
 - IaC enables version-controlled, repeatable deployments for cloud systems.
 - Integrating EC2, Lambda, and API Gateway builds a complete cloud workflow.
+
+---
+
+## Screenshots
