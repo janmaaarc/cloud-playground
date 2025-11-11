@@ -47,7 +47,12 @@ resource "aws_instance" "my_ec2" {
 ```
 > Note: Make sure to use an available AMI in your AWS region. You can find it via the console or AWS CLI:
 ```bash
-aws ec2 describe-images --owners amazon --filters "Name=name,Values=amzn2-ami-hvm-2.0.*-x86_64-gp2" --region ap-southeast-2
+aws ec2 describe-images \
+  --owners amazon \
+  --filters "Name=name,Values=amzn2-ami-hvm-2.*-x86_64-gp2" "Name=state,Values=available" \
+  --region ap-southeast-1 \
+  --query "Images[*].[ImageId,Name]" \
+  --output table
 ```
 
 
