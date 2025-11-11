@@ -28,7 +28,7 @@ The architecture integrates multiple AWS services working together:
 
 ---
 
-## 🖼️ Architecture Diagram  
+##  Architecture Diagram  
 
 ![AWS Architecture](A_detailed_AWS_cloud_architecture_diagram_illustra.png)
 
